@@ -17,7 +17,7 @@ In this project, for all 3 satellites (Landsat-7, Landsat-8, and Sentinel-2), we
     * Improved corner years, difference-based change detection
    
 # Final Results
-As a compilation of all results and comparing the performance across different satellites, find the slides in the document named **Change_Classifier_Document.pdf**.
+As a compilation of all results and comparing the performance across different satellites, find the slides in the document named **Change_Classifier_Document.pdf**. As per our analysis, **Improved Corner Years, With difference-based change detection** gives the best results in the most simplest manner.
 
 # Execution
 Each directory has a run.sh file. Run that using sh run.sh command in your terminal, and it'll guide you through the process.
