@@ -1,0 +1,111 @@
+
+************ Checking the Accuracy of BU/NBU Maps **************
+
+{'BU': 65, 'NBU': 130}
+
+*************Overall Classification Report******************
+Actual Label distribution:  (array([ 65, 130]), array([7487, 5889]))
+Predicted Label distribution:  (array([ 65, 130]), array([7249, 6127]))
+              precision    recall  f1-score   support
+
+          BU       0.98      0.95      0.97      7487
+         NBU       0.94      0.98      0.96      5889
+
+    accuracy                           0.97     13376
+   macro avg       0.96      0.97      0.97     13376
+weighted avg       0.97      0.97      0.97     13376
+
+
+Confusion matrix:
+Predicted   65    130
+Actual               
+65         7140   347
+130         109  5780
+
+ Accuracy:  96.5909090909091
+
+
+
+************** Delhi  Classification Report******************
+              precision    recall  f1-score   support
+
+          BU       0.90      0.94      0.92       423
+         NBU       0.96      0.94      0.95       676
+
+    accuracy                           0.94      1099
+   macro avg       0.93      0.94      0.94      1099
+weighted avg       0.94      0.94      0.94      1099
+
+
+Confusion matrix:
+Predicted  65   130
+Actual             
+65         399   24
+130         42  634
+
+ Accuracy:  93.99454049135578
+
+
+
+************** Gurgaon  Classification Report******************
+              precision    recall  f1-score   support
+
+          BU       1.00      0.95      0.97      2457
+         NBU       0.95      1.00      0.97      2365
+
+    accuracy                           0.97      4822
+   macro avg       0.97      0.97      0.97      4822
+weighted avg       0.97      0.97      0.97      4822
+
+
+Confusion matrix:
+Predicted   65    130
+Actual               
+65         2341   116
+130          11  2354
+
+ Accuracy:  97.36623807548736
+
+
+
+************** Hyderabad  Classification Report******************
+              precision    recall  f1-score   support
+
+          BU       0.98      1.00      0.99      2209
+         NBU       1.00      0.97      0.98      1350
+
+    accuracy                           0.99      3559
+   macro avg       0.99      0.98      0.99      3559
+weighted avg       0.99      0.99      0.99      3559
+
+
+Confusion matrix:
+Predicted   65    130
+Actual               
+65         2205     4
+130          44  1306
+
+ Accuracy:  98.6513065467828
+
+
+
+************** Mumbai  Classification Report******************
+              precision    recall  f1-score   support
+
+          BU       0.99      0.92      0.95      2398
+         NBU       0.88      0.99      0.93      1498
+
+    accuracy                           0.94      3896
+   macro avg       0.94      0.95      0.94      3896
+weighted avg       0.95      0.94      0.95      3896
+
+
+Confusion matrix:
+Predicted   65    130
+Actual               
+65         2195   203
+130          12  1486
+
+ Accuracy:  94.48151950718686
+
+
